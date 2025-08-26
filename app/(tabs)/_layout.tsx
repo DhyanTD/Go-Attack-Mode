@@ -37,6 +37,7 @@ export default function RootLayout() {
           name="Today"
           options={{
             tabBarIcon: ({ color }) => <></>,
+            headerShown: false,
           }}
         />
         <Tabs.Screen
